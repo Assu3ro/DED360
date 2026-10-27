@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Entre em contato com a DED360 para solicitar orçamento e receber atendimento personalizado." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <title>Contato | DED360</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <a href="index.html" class="brand" aria-label="DED360 início">
+          <img src="assets/images/logo-ded360-antiga.svg" alt="Logo DED360" class="brand-logo" />
+        </a>
+
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Navegação principal">
+          <ul class="nav-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="contato.html" aria-current="page">Contato</a></li>
+          </ul>
+        </nav>
+
+        <a class="button button-primary nav-cta" href="https://wa.me/5581993276389" target="_blank" rel="noreferrer">
+          Solicitar orçamento
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="page-hero__bg"></div>
+        <div class="container page-hero__content reveal">
+          <ul class="breadcrumbs" aria-label="Você está em">
+            <li><a href="index.html">Início</a></li>
+            <li>/</li>
+            <li>Contato</li>
+          </ul>
+          <h1>Fale com a DED360 e solicite seu orçamento.</h1>
+          <p>
+            Nossa equipe está pronta para entender o seu projeto, responder dúvidas e sugerir a melhor solução para o seu espaço.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-inner">
+        <div class="container contact-layout">
+          <div class="contact-card reveal">
+            <span class="eyebrow">Atendimento</span>
+            <h2>Contato</h2>
+            <p>Estamos disponíveis para atender projetos residenciais e comerciais com atenção e agilidade.</p>
+            <ul class="contact-list">
+              <li><strong>WhatsApp:</strong> (81) 9.9327-6389</li>
+              <li><strong>WhatsApp:</strong> (81) 9.8721-7755</li>
+              <li><strong>E-mail:</strong> contato@ded360.com.br</li>
+              <li><strong>Atendimento em:</strong> Recife e Região Metropolitana, Pernambuco.</li>
+            </ul>
+          </div>
+
+          <div class="form-card reveal">
+            <form class="form-grid" id="contactForm">
+              <div class="form-field">
+                <label for="name">Nome</label>
+                <input id="name" name="name" type="text" placeholder="Seu nome" required />
+              </div>
+
+              <div class="form-field">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="seu@email.com" required />
+              </div>
+
+              <div class="form-field">
+                <label for="service">Serviço de interesse</label>
+                <select id="service" name="service">
+                  <option value="marcenaria">Marcenaria Planejada</option>
+                  <option value="arquitetura">Arquitetura de Interiores</option>
+                  <option value="coifa">Limpeza de Coifa e Exaustores</option>
+                  <option value="smart">Instalação Smart</option>
+                  <option value="cameras">Câmeras e Segurança</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Conte um pouco sobre seu projeto..." required></textarea>
+              </div>
+
+              <button class="button button-primary" type="submit">Enviar mensagem</button>
+              <div class="form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand" aria-label="DED360 home">
+            <img src="assets/images/logo-ded360-antiga.svg" alt="Logo DED360" class="brand-logo" />
+          </a>
+          <p>Qualidade e atenção para transformar ideias em espaços funcionais e elegantes.</p>
+        </div>
+
+        <div>
+          <h3>Contato</h3>
+          <ul class="footer-list">
+            <li><a href="tel:+5581993276389">(81) 9.9327-6389</a></li>
+            <li><a href="tel:+5581987217755">(81) 9.8721-7755</a></li>
+            <li><a href="mailto:contato@ded360.com.br">contato@ded360.com.br</a></li>
+            <li><span>Atendimento em: Recife e Região Metropolitana, Pernambuco.</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Menu</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© <span data-year></span> DED360. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/5581993276389?text=Ol%C3%A1%2C%20quero%20solicitar%20um%20or%C3%A7amento%20da%20DED360" target="_blank" rel="noreferrer" aria-label="Falar no WhatsApp">WhatsApp</a>
+
+    <script type="module" src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/modules/contact.js"></script>
+  </body>
+</html>
